@@ -26,7 +26,7 @@ Run and test the app using a browser or Postman:
 Secure endpoints will prompt for username and password.
 
 ## PROGRAM CODE:
-###pom.xml (Dependencies)
+## pom.xml (Dependencies)
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -128,7 +128,7 @@ Secure endpoints will prompt for username and password.
 
 </project>
 ```
-### SecurityConfig.java (Spring Boot 3.x / Spring Security 6+)
+## SecurityConfig.java (Spring Boot 3.x / Spring Security 6+)
 ```
 package com.example.demo.Config;
 
@@ -176,7 +176,7 @@ public class SecurityConfig {
     }
 }
 ```
-###AuthController.java
+## AuthController.java
 ```
 package com.example.demo.Controller;
 
@@ -325,8 +325,7 @@ public class LoginRequest {
 }
 ```
 ## OUTPUT
-<img width="1917" height="992" alt="Screenshot 2026-09-02 174618" src="https://github.com/user-attachments/assets/a2a1c2fa-2d27-4bfe-86d9-02e70f37b2b9" />
-
+<img width="1920" height="1080" alt="Screenshot (1048)" src="https://github.com/user-attachments/assets/d0361b13-65b2-4659-8f9a-da9f7e691354" />
 
 <img width="1920" height="1080" alt="Screenshot (1050)" src="https://github.com/user-attachments/assets/c985186c-1e6d-4355-b8cf-79f5ebe4a5cf" />
 
